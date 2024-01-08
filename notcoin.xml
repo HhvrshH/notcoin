@@ -9,6 +9,18 @@
    function dataRenew()
    {
    section_insert()
+      section_start("", 971476313)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      sleep(1000)!
+      section_end()!
+
+      section_start("", 887028986)!
+      /*Dat:eyJzIjoib3BlbmJyb3dzZXIiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOltdfQ==*/
+      /*Browser*/
+      /*ManualBrowser*/
+      open_browser()!
+      section_end()!
+
       section_start("", 905218208)!
       /*Dat:eyJzIjoiYnJvd3NlcnNldHRpbmdzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IldpZGV2aW5lIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJTYWZlQnJvd3NpbmciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNvbXBvbmVudHMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IldlYnJ0YyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiV2VicnRjSXBzIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDYW52YXMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNhbnZhc05vaXNlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJXZWJnbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiV2ViZ2xOb2lzZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiV2ViZ2xWZW5kb3IiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IldlYmdsUmVuZGVyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkF1ZGlvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJBdWRpb05vaXNlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJRVUlDIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJNYXhGUFMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJFeHRlbnNpb25zIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJCcm93c2VyVmVyc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ29tbWFuZExpbmUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBhdGgiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbUFJPSkVDVF9ESVJFQ1RPUlldXS9UR19wcm9maWxlcy9bW1VTRVJOQU1FXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJMb2FkRlBGcm9tRm9sZGVyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ0cnVlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiTG9hZFByb3h5RnJvbUZvbGRlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
       _require_extensions("")!
@@ -84,10 +96,26 @@
       logger_log({"color": ("yellow"), "en": ("Logined to account " + VAR_USERNAME + " for data update"), "level": ("info"), "ru": ("Logined to account " + VAR_USERNAME + " for data update")})
       section_end()!
 
-      section_start("", 801850906)!
-      /*Dat:eyJzIjoid2FpdGZ1bGxsb2FkIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
-      /*Browser*/
-      wait_async_load()!
+      section_start("", 762718716)!
+      /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+      _call(function()
+      {
+      _on_fail(function(){
+      VAR_LAST_ERROR = _result()
+      VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+      VAR_WAS_ERROR = false
+      _break(1,true)
+      })
+      CYCLES.Current().RemoveLabel("function")
+      section_insert()
+         section_start("", 13070347)!
+         /*Dat:eyJzIjoid2FpdGZ1bGxsb2FkIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIyMCIsInVtIjoiMCIsImQiOltdfQ==*/
+         /*Browser*/
+         waiter_timeout_next(20000)
+         wait_async_load()!
+         section_end()!
+
+      },null)!
       section_end()!
 
       section_start("", 315250348)!
@@ -111,8 +139,8 @@
       section_end()!
 
       section_start("", 556674422)!
-      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIzMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
-      sleep(3000)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      sleep(5000)!
       section_end()!
 
       section_start("", 211358642)!
@@ -660,8 +688,8 @@
       section_end()!
 
       section_start("", 836614007)!
-      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIzMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
-      sleep(3000)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      sleep(5000)!
       section_end()!
 
       section_start("", 183810702)!
@@ -1247,10 +1275,15 @@
       _set_if_expression("MA==");
       _if(0,function(){
       section_insert()
+         section_start("", 141326623)!
+         /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfSU5ERVgifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         VAR_THREAD_INDEX = 2
+         section_end()!
+
       })!
       section_end()!
 
-      section_start("", 35830827)!
+      section_start("", 743581327)!
       /*Dat:eyJzIjoiZ2V0dGhyZWFkbnVtYmVyIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlRIUkVBRF9JTkRFWCJ9XX0=*/
       VAR_THREAD_INDEX = thread_number()
       section_end()!
@@ -2000,7 +2033,7 @@ Detector=false
     &quot;MailDeprecated&quot;: false
 }
 </ModulesMetaJson>
-     <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;ALL_MATCH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;AUTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;AVAILABLECOINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BALANCECOINS_CURRENT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_PROXIES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CACHE_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATA_LENGTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ELEMENT_LENGTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ELEMENT_LENGTH1&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ELEMENT_LENGTH2&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ERROR_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FINGERPRINT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;HTTP_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IS_EXISTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;K&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LAST_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LIMIT_COINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LIST_WITH_GROUPS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MININGPERTIME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MULTIPLECLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NUM_CLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NUM_HASH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;POINTLIMIT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;POINTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PRINTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROJECT_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RUM_DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_CONTENT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;STATUS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TG_DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TG_DATA_LENGTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TG_DATA_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;THREAD_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TIMEPERCLICK&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TO&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;URL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;USER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;USERNAME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAS_ERROR&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;BROWSER_PROXIES\&quot;]&quot;:false,&quot;[\&quot;CACHE_LIST\&quot;]&quot;:false,&quot;[\&quot;DATA\&quot;]&quot;:true,&quot;[\&quot;TG_DATA\&quot;]&quot;:false,&quot;[\&quot;ALL_MATCH\&quot;]&quot;:false,&quot;[\&quot;USER\&quot;]&quot;:true,&quot;[\&quot;TG_DATA_LIST\&quot;]&quot;:true}},&quot;resources&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;bowser_count&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;threads&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;workmode&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{}},&quot;callstack&quot;:{&quot;filters&quot;:[{&quot;name&quot;:&quot;functions&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;actions&quot;,&quot;active&quot;:true}],&quot;sortings&quot;:[],&quot;options&quot;:[]}}</InterfaceState>
+     <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;ALL_MATCH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;AUTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;AVAILABLECOINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BALANCECOINS_CURRENT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_PROXIES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;BROWSER_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CACHE_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;DATA_LENGTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ELEMENT_LENGTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ELEMENT_LENGTH1&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ELEMENT_LENGTH2&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ERROR_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FINGERPRINT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;HTTP_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;IS_EXISTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;K&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LAST_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LIMIT_COINS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LIST_WITH_GROUPS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MININGPERTIME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;MULTIPLECLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NUM_CLICKS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;NUM_HASH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;POINTLIMIT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;POINTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PRINTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;PROJECT_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RUM_DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_CONTENT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;STATUS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TG_DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TG_DATA_LENGTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TG_DATA_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;THREAD_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TIMEPERCLICK&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;TO&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;URL&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;USER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;USERNAME&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAS_ERROR&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;BROWSER_PROXIES\&quot;]&quot;:false,&quot;[\&quot;CACHE_LIST\&quot;]&quot;:false,&quot;[\&quot;DATA\&quot;]&quot;:true,&quot;[\&quot;TG_DATA\&quot;]&quot;:false,&quot;[\&quot;ALL_MATCH\&quot;]&quot;:false,&quot;[\&quot;USER\&quot;]&quot;:true,&quot;[\&quot;TG_DATA_LIST\&quot;]&quot;:true,&quot;[\&quot;CACHE_LIST\&quot;,0]&quot;:false,&quot;[\&quot;CACHE_LIST\&quot;,1]&quot;:true,&quot;[\&quot;CACHE_LIST\&quot;,1,\&quot;request_headers\&quot;]&quot;:true,&quot;[\&quot;CACHE_LIST\&quot;,1,\&quot;request_headers\&quot;,0]&quot;:false,&quot;[\&quot;CACHE_LIST\&quot;,1,\&quot;request_headers\&quot;,1]&quot;:false,&quot;[\&quot;CACHE_LIST\&quot;,1,\&quot;request_headers\&quot;,2]&quot;:false}},&quot;resources&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;bowser_count&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;threads&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;workmode&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{}},&quot;callstack&quot;:{&quot;filters&quot;:[{&quot;name&quot;:&quot;functions&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;actions&quot;,&quot;active&quot;:true}],&quot;sortings&quot;:[],&quot;options&quot;:[]}}</InterfaceState>
      <OutputTitle1 en="First Results" ru="First Results"/>
      <OutputTitle2 en="Second Results" ru="Second Results"/>
      <OutputTitle3 en="Third Results" ru="Third Results"/>
