@@ -4497,16 +4497,82 @@
       native("filesystem", "writefile", JSON.stringify({path: VAR_PROJECT_DIRECTORY + "/tg_data/" + VAR_USERNAME + "_data.txt",value: (VAR_DATA).toString(),base64:false,append:false}))
       section_end()!
 
-      section_start("", 825821884)!
-      /*Dat:eyJzIjoiU2F2ZVByb2ZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUGF0aCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tQUk9KRUNUX0RJUkVDVE9SWV1dL1RHX3Byb2ZpbGVzL1tbVVNFUk5BTUVdXSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-      ProfilePath = _get_profile()
-      native("filesystem", "copyfile", JSON.stringify({path: ProfilePath,dest: VAR_PROJECT_DIRECTORY + "/TG_profiles/" + VAR_USERNAME}))
+      section_start("", 105163892)!
+      /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+      _call(function()
+      {
+      _on_fail(function(){
+      VAR_LAST_ERROR = _result()
+      VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+      VAR_WAS_ERROR = false
+      _break(1,true)
+      })
+      CYCLES.Current().RemoveLabel("function")
+      section_insert()
+         section_start("\u007b\u0022n\u0022:\u0022profile\u0022\u007d", 446657659)!
+         /*Dat:eyJzIjoiaHR0cGNsaWVudGdldCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgyLyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9wcm9maWxlXHJcbnBvcHRscy1wcm94eTogW1tCUk9XU0VSX1BST1hZXV1cclxucG9wdGxzLWFsbG93cmVkaXJlY3Q6IHRydWVcclxuSG9zdDogY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXpcclxuQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uXHJcbkF1dGhvcml6YXRpb246IFtbQVVUSF1dXHJcblVzZXItQWdlbnQ6IFtbVVNFUl1dXHJcbkF1dGg6IDFcclxuT3JpZ2luOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXpcclxuWC1SZXF1ZXN0ZWQtV2l0aDogb3JnLnRlbGVncmFtLm1lc3Nlbmdlci53ZWJcclxuU2VjLUZldGNoLVNpdGU6IHNhbWUtc2l0ZVxyXG5TZWMtRmV0Y2gtTW9kZTogY29yc1xyXG5TZWMtRmV0Y2gtRGVzdDogZW1wdHlcclxuUmVmZXJlcjogaHR0cHM6Ly9jbGlja2VyLmpvaW5jb21tdW5pdHkueHl6L1xyXG5BY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyXHJcbkFjY2VwdC1MYW5ndWFnZTogZW4sZW4tVVM7cT0wLjkiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJNZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkdFVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+         _switch_http_client_main()
+         http_client_get2("http://localhost:8082/",{method:("GET"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/profile\r\npoptls-proxy: " + VAR_BROWSER_PROXY + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+         section_end()!
+
+      },null)!
       section_end()!
 
-      section_start("\u007b\u0022n\u0022:\u0022profile\u0022\u007d", 272447407)!
-      /*Dat:eyJzIjoiaHR0cGNsaWVudGdldCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgyLyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9wcm9maWxlXHJcbnBvcHRscy1wcm94eTogW1tIVFRQX1BST1hZXV1cclxucG9wdGxzLWFsbG93cmVkaXJlY3Q6IHRydWVcclxuSG9zdDogY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXpcclxuQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uXHJcbkF1dGhvcml6YXRpb246IFtbQVVUSF1dXHJcblVzZXItQWdlbnQ6IFtbVVNFUl1dXHJcbkF1dGg6IDFcclxuT3JpZ2luOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXpcclxuWC1SZXF1ZXN0ZWQtV2l0aDogb3JnLnRlbGVncmFtLm1lc3Nlbmdlci53ZWJcclxuU2VjLUZldGNoLVNpdGU6IHNhbWUtc2l0ZVxyXG5TZWMtRmV0Y2gtTW9kZTogY29yc1xyXG5TZWMtRmV0Y2gtRGVzdDogZW1wdHlcclxuUmVmZXJlcjogaHR0cHM6Ly9jbGlja2VyLmpvaW5jb21tdW5pdHkueHl6L1xyXG5BY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyXHJcbkFjY2VwdC1MYW5ndWFnZTogZW4sZW4tVVM7cT0wLjkiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJNZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkdFVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
-      _switch_http_client_main()
-      http_client_get2("http://localhost:8082/",{method:("GET"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/profile\r\npoptls-proxy: " + VAR_HTTP_PROXY + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+      section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 732850199)!
+      /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+      _set_if_expression("W1tXQVNfRVJST1JdXQ==");
+      _if(VAR_WAS_ERROR,function(){
+      section_insert()
+         section_start("", 631985749)!
+         /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXV0byIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         _switch_http_client_main()
+         VAR_SAVED_CONTENT = http_client_encoded_content("auto")
+         section_end()!
+
+         section_start("", 467939957)!
+         /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1NBVkVEX0NPTlRFTlRdXSA9PSBcIkVtcHR5IHJlcGx5IGZyb20gc2VydmVyXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+         _do(function(){
+         _set_action_info({ name: "While" });
+         VAR_CYCLE_INDEX = _iterator() - 1
+         BREAK_CONDITION = VAR_SAVED_CONTENT == "Empty reply from server";
+         if(!BREAK_CONDITION)_break();
+         section_insert()
+            section_start("", 232214876)!
+            /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMDAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJzbGVlcGZyb210byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwcmFuZG9tIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+            sleep(rand(5000,10000))!
+            section_end()!
+
+            section_start("", 389165961)!
+            /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+            _call(function()
+            {
+            _on_fail(function(){
+            VAR_LAST_ERROR = _result()
+            VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+            VAR_WAS_ERROR = false
+            _break(1,true)
+            })
+            CYCLES.Current().RemoveLabel("function")
+            section_insert()
+               section_start("\u007b\u0022n\u0022:\u0022profile\u0022\u007d", 885649540)!
+               /*Dat:eyJzIjoiaHR0cGNsaWVudGdldCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiaHR0cDovL2xvY2FsaG9zdDo4MDgyLyIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9wcm9maWxlXHJcbnBvcHRscy1wcm94eTogW1tCUk9XU0VSX1BST1hZXV1cclxucG9wdGxzLWFsbG93cmVkaXJlY3Q6IHRydWVcclxuSG9zdDogY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXpcclxuQWNjZXB0OiBhcHBsaWNhdGlvbi9qc29uXHJcbkF1dGhvcml6YXRpb246IFtbQVVUSF1dXHJcblVzZXItQWdlbnQ6IFtbVVNFUl1dXHJcbkF1dGg6IDFcclxuT3JpZ2luOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXpcclxuWC1SZXF1ZXN0ZWQtV2l0aDogb3JnLnRlbGVncmFtLm1lc3Nlbmdlci53ZWJcclxuU2VjLUZldGNoLVNpdGU6IHNhbWUtc2l0ZVxyXG5TZWMtRmV0Y2gtTW9kZTogY29yc1xyXG5TZWMtRmV0Y2gtRGVzdDogZW1wdHlcclxuUmVmZXJlcjogaHR0cHM6Ly9jbGlja2VyLmpvaW5jb21tdW5pdHkueHl6L1xyXG5BY2NlcHQtRW5jb2Rpbmc6IGd6aXAsIGRlZmxhdGUsIGJyXHJcbkFjY2VwdC1MYW5ndWFnZTogZW4sZW4tVVM7cT0wLjkiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJNZXRob2QiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkdFVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+               _switch_http_client_main()
+               http_client_get2("http://localhost:8082/",{method:("GET"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/profile\r\npoptls-proxy: " + VAR_BROWSER_PROXY + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+               section_end()!
+
+            },null)!
+            section_end()!
+
+            section_start("", 541390947)!
+            /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXV0byIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+            _switch_http_client_main()
+            VAR_SAVED_CONTENT = http_client_encoded_content("auto")
+            section_end()!
+
+         })!
+         section_end()!
+
+      })!
       section_end()!
 
       section_start("", 893128705)!
@@ -4551,6 +4617,12 @@
          section_end()!
 
       })!
+      section_end()!
+
+      section_start("", 574945259)!
+      /*Dat:eyJzIjoiU2F2ZVByb2ZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiUGF0aCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tQUk9KRUNUX0RJUkVDVE9SWV1dL1RHX3Byb2ZpbGVzL1tbVVNFUk5BTUVdXSIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+      ProfilePath = _get_profile()
+      native("filesystem", "copyfile", JSON.stringify({path: ProfilePath,dest: VAR_PROJECT_DIRECTORY + "/TG_profiles/" + VAR_USERNAME}))
       section_end()!
 
    }
