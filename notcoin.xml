@@ -2408,10 +2408,77 @@
          VAR_CYCLE_INDEX = _iterator() - 1 + parseInt(1)
          if(VAR_CYCLE_INDEX > parseInt(VAR_ENERGY))_break();
          section_insert()
-            section_start("\u007b\u0022n\u0022:\u0022https://clicker-api.joincommunity.xyz/clicker/store/buy/1\u0022\u007d", 193990574)!
-            /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9zdG9yZS9idXkvMVxyXG5wb3B0bHMtcHJveHk6IFtbSFRUUF9QUk9YWV9dXVxyXG5wb3B0bHMtYWxsb3dyZWRpcmVjdDogdHJ1ZVxyXG5Ib3N0OiBjbGlja2VyLWFwaS5qb2luY29tbXVuaXR5Lnh5elxyXG5Db250ZW50LUxlbmd0aDogW1tEQVRBX0xFTkdUSF1dXHJcbkFjY2VwdDogYXBwbGljYXRpb24vanNvblxyXG5BdXRob3JpemF0aW9uOiBbW0FVVEhdXVxyXG5Vc2VyLUFnZW50OiBbW1VTRVJdXVxyXG5BdXRoOiAxXHJcbkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvblxyXG5PcmlnaW46IGh0dHBzOi8vY2xpY2tlci5qb2luY29tbXVuaXR5Lnh5elxyXG5YLVJlcXVlc3RlZC1XaXRoOiBvcmcudGVsZWdyYW0ubWVzc2VuZ2VyLndlYlxyXG5TZWMtRmV0Y2gtU2l0ZTogc2FtZS1zaXRlXHJcblNlYy1GZXRjaC1Nb2RlOiBjb3JzXHJcblNlYy1GZXRjaC1EZXN0OiBlbXB0eVxyXG5SZWZlcmVyOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXovXHJcbkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnJcclxuQWNjZXB0LUxhbmd1YWdlOiBlbixlbi1VUztxPTAuOSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tEQVRBXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24vanNvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
-            _switch_http_client_main()
-            http_client_post("http://localhost:8082", ["data", VAR_DATA], {"content-type":"custom/" + ("application/json"), "encoding":("UTF-8"), "method":("POST"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/store/buy/1\r\npoptls-proxy: " + VAR_HTTP_PROXY_ + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nContent-Length: " + VAR_DATA_LENGTH + "\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nContent-Type: application/json\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+            section_start("", 390821357)!
+            /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+            _call(function()
+            {
+            _on_fail(function(){
+            VAR_LAST_ERROR = _result()
+            VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+            VAR_WAS_ERROR = false
+            _break(1,true)
+            })
+            CYCLES.Current().RemoveLabel("function")
+            section_insert()
+               section_start("\u007b\u0022n\u0022:\u0022https://clicker-api.joincommunity.xyz/clicker/store/buy/1\u0022\u007d", 454873805)!
+               /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9zdG9yZS9idXkvMVxyXG5wb3B0bHMtcHJveHk6IFtbSFRUUF9QUk9YWV9dXVxyXG5wb3B0bHMtYWxsb3dyZWRpcmVjdDogdHJ1ZVxyXG5Ib3N0OiBjbGlja2VyLWFwaS5qb2luY29tbXVuaXR5Lnh5elxyXG5Db250ZW50LUxlbmd0aDogW1tEQVRBX0xFTkdUSF1dXHJcbkFjY2VwdDogYXBwbGljYXRpb24vanNvblxyXG5BdXRob3JpemF0aW9uOiBbW0FVVEhdXVxyXG5Vc2VyLUFnZW50OiBbW1VTRVJdXVxyXG5BdXRoOiAxXHJcbkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvblxyXG5PcmlnaW46IGh0dHBzOi8vY2xpY2tlci5qb2luY29tbXVuaXR5Lnh5elxyXG5YLVJlcXVlc3RlZC1XaXRoOiBvcmcudGVsZWdyYW0ubWVzc2VuZ2VyLndlYlxyXG5TZWMtRmV0Y2gtU2l0ZTogc2FtZS1zaXRlXHJcblNlYy1GZXRjaC1Nb2RlOiBjb3JzXHJcblNlYy1GZXRjaC1EZXN0OiBlbXB0eVxyXG5SZWZlcmVyOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXovXHJcbkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnJcclxuQWNjZXB0LUxhbmd1YWdlOiBlbixlbi1VUztxPTAuOSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tEQVRBXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24vanNvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+               _switch_http_client_main()
+               http_client_post("http://localhost:8082", ["data", VAR_DATA], {"content-type":"custom/" + ("application/json"), "encoding":("UTF-8"), "method":("POST"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/store/buy/1\r\npoptls-proxy: " + VAR_HTTP_PROXY_ + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nContent-Length: " + VAR_DATA_LENGTH + "\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nContent-Type: application/json\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+               section_end()!
+
+            },null)!
+            section_end()!
+
+            section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 579405163)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+            _set_if_expression("W1tXQVNfRVJST1JdXQ==");
+            _if(VAR_WAS_ERROR,function(){
+            section_insert()
+               section_start("", 37506213)!
+               /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXV0byIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+               _switch_http_client_main()
+               VAR_SAVED_CONTENT = http_client_encoded_content("auto")
+               section_end()!
+
+               section_start("", 609687845)!
+               /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1NBVkVEX0NPTlRFTlRdXSA9PSBcIkVtcHR5IHJlcGx5IGZyb20gc2VydmVyXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+               _do(function(){
+               _set_action_info({ name: "While" });
+               VAR_CYCLE_INDEX = _iterator() - 1
+               BREAK_CONDITION = VAR_SAVED_CONTENT == "Empty reply from server";
+               if(!BREAK_CONDITION)_break();
+               section_insert()
+                  section_start("", 547757086)!
+                  /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+                  _call(function()
+                  {
+                  _on_fail(function(){
+                  VAR_LAST_ERROR = _result()
+                  VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+                  VAR_WAS_ERROR = false
+                  _break(1,true)
+                  })
+                  CYCLES.Current().RemoveLabel("function")
+                  section_insert()
+                     section_start("\u007b\u0022n\u0022:\u0022https://clicker-api.joincommunity.xyz/clicker/store/buy/1\u0022\u007d", 690127133)!
+                     /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9zdG9yZS9idXkvMVxyXG5wb3B0bHMtcHJveHk6IFtbSFRUUF9QUk9YWV9dXVxyXG5wb3B0bHMtYWxsb3dyZWRpcmVjdDogdHJ1ZVxyXG5Ib3N0OiBjbGlja2VyLWFwaS5qb2luY29tbXVuaXR5Lnh5elxyXG5Db250ZW50LUxlbmd0aDogW1tEQVRBX0xFTkdUSF1dXHJcbkFjY2VwdDogYXBwbGljYXRpb24vanNvblxyXG5BdXRob3JpemF0aW9uOiBbW0FVVEhdXVxyXG5Vc2VyLUFnZW50OiBbW1VTRVJdXVxyXG5BdXRoOiAxXHJcbkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvblxyXG5PcmlnaW46IGh0dHBzOi8vY2xpY2tlci5qb2luY29tbXVuaXR5Lnh5elxyXG5YLVJlcXVlc3RlZC1XaXRoOiBvcmcudGVsZWdyYW0ubWVzc2VuZ2VyLndlYlxyXG5TZWMtRmV0Y2gtU2l0ZTogc2FtZS1zaXRlXHJcblNlYy1GZXRjaC1Nb2RlOiBjb3JzXHJcblNlYy1GZXRjaC1EZXN0OiBlbXB0eVxyXG5SZWZlcmVyOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXovXHJcbkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnJcclxuQWNjZXB0LUxhbmd1YWdlOiBlbixlbi1VUztxPTAuOSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tEQVRBXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24vanNvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+                     _switch_http_client_main()
+                     http_client_post("http://localhost:8082", ["data", VAR_DATA], {"content-type":"custom/" + ("application/json"), "encoding":("UTF-8"), "method":("POST"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/store/buy/1\r\npoptls-proxy: " + VAR_HTTP_PROXY_ + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nContent-Length: " + VAR_DATA_LENGTH + "\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nContent-Type: application/json\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+                     section_end()!
+
+                  },null)!
+                  section_end()!
+
+                  section_start("", 595633562)!
+                  /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXV0byIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+                  _switch_http_client_main()
+                  VAR_SAVED_CONTENT = http_client_encoded_content("auto")
+                  section_end()!
+
+               })!
+               section_end()!
+
+            })!
             section_end()!
 
             section_start("", 577604037)!
@@ -2490,10 +2557,77 @@
          VAR_CYCLE_INDEX = _iterator() - 1 + parseInt(1)
          if(VAR_CYCLE_INDEX > parseInt(VAR_SPEED))_break();
          section_insert()
-            section_start("\u007b\u0022n\u0022:\u0022https://clicker-api.joincommunity.xyz/clicker/store/buy/2\u0022\u007d", 266698231)!
-            /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9zdG9yZS9idXkvMlxyXG5wb3B0bHMtcHJveHk6IFtbSFRUUF9QUk9YWV9dXVxyXG5wb3B0bHMtYWxsb3dyZWRpcmVjdDogdHJ1ZVxyXG5Ib3N0OiBjbGlja2VyLWFwaS5qb2luY29tbXVuaXR5Lnh5elxyXG5Db250ZW50LUxlbmd0aDogW1tEQVRBX0xFTkdUSF1dXHJcbkFjY2VwdDogYXBwbGljYXRpb24vanNvblxyXG5BdXRob3JpemF0aW9uOiBbW0FVVEhdXVxyXG5Vc2VyLUFnZW50OiBbW1VTRVJdXVxyXG5BdXRoOiAxXHJcbkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvblxyXG5PcmlnaW46IGh0dHBzOi8vY2xpY2tlci5qb2luY29tbXVuaXR5Lnh5elxyXG5YLVJlcXVlc3RlZC1XaXRoOiBvcmcudGVsZWdyYW0ubWVzc2VuZ2VyLndlYlxyXG5TZWMtRmV0Y2gtU2l0ZTogc2FtZS1zaXRlXHJcblNlYy1GZXRjaC1Nb2RlOiBjb3JzXHJcblNlYy1GZXRjaC1EZXN0OiBlbXB0eVxyXG5SZWZlcmVyOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXovXHJcbkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnJcclxuQWNjZXB0LUxhbmd1YWdlOiBlbixlbi1VUztxPTAuOSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tEQVRBXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24vanNvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
-            _switch_http_client_main()
-            http_client_post("http://localhost:8082", ["data", VAR_DATA], {"content-type":"custom/" + ("application/json"), "encoding":("UTF-8"), "method":("POST"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/store/buy/2\r\npoptls-proxy: " + VAR_HTTP_PROXY_ + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nContent-Length: " + VAR_DATA_LENGTH + "\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nContent-Type: application/json\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+            section_start("", 243103069)!
+            /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+            _call(function()
+            {
+            _on_fail(function(){
+            VAR_LAST_ERROR = _result()
+            VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+            VAR_WAS_ERROR = false
+            _break(1,true)
+            })
+            CYCLES.Current().RemoveLabel("function")
+            section_insert()
+               section_start("\u007b\u0022n\u0022:\u0022https://clicker-api.joincommunity.xyz/clicker/store/buy/2\u0022\u007d", 33510615)!
+               /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9zdG9yZS9idXkvMlxyXG5wb3B0bHMtcHJveHk6IFtbSFRUUF9QUk9YWV9dXVxyXG5wb3B0bHMtYWxsb3dyZWRpcmVjdDogdHJ1ZVxyXG5Ib3N0OiBjbGlja2VyLWFwaS5qb2luY29tbXVuaXR5Lnh5elxyXG5Db250ZW50LUxlbmd0aDogW1tEQVRBX0xFTkdUSF1dXHJcbkFjY2VwdDogYXBwbGljYXRpb24vanNvblxyXG5BdXRob3JpemF0aW9uOiBbW0FVVEhdXVxyXG5Vc2VyLUFnZW50OiBbW1VTRVJdXVxyXG5BdXRoOiAxXHJcbkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvblxyXG5PcmlnaW46IGh0dHBzOi8vY2xpY2tlci5qb2luY29tbXVuaXR5Lnh5elxyXG5YLVJlcXVlc3RlZC1XaXRoOiBvcmcudGVsZWdyYW0ubWVzc2VuZ2VyLndlYlxyXG5TZWMtRmV0Y2gtU2l0ZTogc2FtZS1zaXRlXHJcblNlYy1GZXRjaC1Nb2RlOiBjb3JzXHJcblNlYy1GZXRjaC1EZXN0OiBlbXB0eVxyXG5SZWZlcmVyOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXovXHJcbkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnJcclxuQWNjZXB0LUxhbmd1YWdlOiBlbixlbi1VUztxPTAuOSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tEQVRBXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24vanNvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+               _switch_http_client_main()
+               http_client_post("http://localhost:8082", ["data", VAR_DATA], {"content-type":"custom/" + ("application/json"), "encoding":("UTF-8"), "method":("POST"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/store/buy/2\r\npoptls-proxy: " + VAR_HTTP_PROXY_ + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nContent-Length: " + VAR_DATA_LENGTH + "\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nContent-Type: application/json\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+               section_end()!
+
+            },null)!
+            section_end()!
+
+            section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 493471215)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+            _set_if_expression("W1tXQVNfRVJST1JdXQ==");
+            _if(VAR_WAS_ERROR,function(){
+            section_insert()
+               section_start("", 304572932)!
+               /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXV0byIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+               _switch_http_client_main()
+               VAR_SAVED_CONTENT = http_client_encoded_content("auto")
+               section_end()!
+
+               section_start("", 778944151)!
+               /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1NBVkVEX0NPTlRFTlRdXSA9PSBcIkVtcHR5IHJlcGx5IGZyb20gc2VydmVyXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+               _do(function(){
+               _set_action_info({ name: "While" });
+               VAR_CYCLE_INDEX = _iterator() - 1
+               BREAK_CONDITION = VAR_SAVED_CONTENT == "Empty reply from server";
+               if(!BREAK_CONDITION)_break();
+               section_insert()
+                  section_start("", 696747836)!
+                  /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+                  _call(function()
+                  {
+                  _on_fail(function(){
+                  VAR_LAST_ERROR = _result()
+                  VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+                  VAR_WAS_ERROR = false
+                  _break(1,true)
+                  })
+                  CYCLES.Current().RemoveLabel("function")
+                  section_insert()
+                     section_start("\u007b\u0022n\u0022:\u0022https://clicker-api.joincommunity.xyz/clicker/store/buy/2\u0022\u007d", 197398439)!
+                     /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9zdG9yZS9idXkvMlxyXG5wb3B0bHMtcHJveHk6IFtbSFRUUF9QUk9YWV9dXVxyXG5wb3B0bHMtYWxsb3dyZWRpcmVjdDogdHJ1ZVxyXG5Ib3N0OiBjbGlja2VyLWFwaS5qb2luY29tbXVuaXR5Lnh5elxyXG5Db250ZW50LUxlbmd0aDogW1tEQVRBX0xFTkdUSF1dXHJcbkFjY2VwdDogYXBwbGljYXRpb24vanNvblxyXG5BdXRob3JpemF0aW9uOiBbW0FVVEhdXVxyXG5Vc2VyLUFnZW50OiBbW1VTRVJdXVxyXG5BdXRoOiAxXHJcbkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvblxyXG5PcmlnaW46IGh0dHBzOi8vY2xpY2tlci5qb2luY29tbXVuaXR5Lnh5elxyXG5YLVJlcXVlc3RlZC1XaXRoOiBvcmcudGVsZWdyYW0ubWVzc2VuZ2VyLndlYlxyXG5TZWMtRmV0Y2gtU2l0ZTogc2FtZS1zaXRlXHJcblNlYy1GZXRjaC1Nb2RlOiBjb3JzXHJcblNlYy1GZXRjaC1EZXN0OiBlbXB0eVxyXG5SZWZlcmVyOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXovXHJcbkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnJcclxuQWNjZXB0LUxhbmd1YWdlOiBlbixlbi1VUztxPTAuOSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tEQVRBXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24vanNvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+                     _switch_http_client_main()
+                     http_client_post("http://localhost:8082", ["data", VAR_DATA], {"content-type":"custom/" + ("application/json"), "encoding":("UTF-8"), "method":("POST"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/store/buy/2\r\npoptls-proxy: " + VAR_HTTP_PROXY_ + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nContent-Length: " + VAR_DATA_LENGTH + "\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nContent-Type: application/json\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+                     section_end()!
+
+                  },null)!
+                  section_end()!
+
+                  section_start("", 981838361)!
+                  /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXV0byIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+                  _switch_http_client_main()
+                  VAR_SAVED_CONTENT = http_client_encoded_content("auto")
+                  section_end()!
+
+               })!
+               section_end()!
+
+            })!
             section_end()!
 
             section_start("", 535847407)!
@@ -2572,10 +2706,77 @@
          VAR_CYCLE_INDEX = _iterator() - 1 + parseInt(1)
          if(VAR_CYCLE_INDEX > parseInt(VAR_CLICK))_break();
          section_insert()
-            section_start("\u007b\u0022n\u0022:\u0022https://clicker-api.joincommunity.xyz/clicker/store/buy/3\u0022\u007d", 292782266)!
-            /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9zdG9yZS9idXkvM1xyXG5wb3B0bHMtcHJveHk6IFtbSFRUUF9QUk9YWV9dXVxyXG5wb3B0bHMtYWxsb3dyZWRpcmVjdDogdHJ1ZVxyXG5Ib3N0OiBjbGlja2VyLWFwaS5qb2luY29tbXVuaXR5Lnh5elxyXG5Db250ZW50LUxlbmd0aDogW1tEQVRBX0xFTkdUSF1dXHJcbkFjY2VwdDogYXBwbGljYXRpb24vanNvblxyXG5BdXRob3JpemF0aW9uOiBbW0FVVEhdXVxyXG5Vc2VyLUFnZW50OiBbW1VTRVJdXVxyXG5BdXRoOiAxXHJcbkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvblxyXG5PcmlnaW46IGh0dHBzOi8vY2xpY2tlci5qb2luY29tbXVuaXR5Lnh5elxyXG5YLVJlcXVlc3RlZC1XaXRoOiBvcmcudGVsZWdyYW0ubWVzc2VuZ2VyLndlYlxyXG5TZWMtRmV0Y2gtU2l0ZTogc2FtZS1zaXRlXHJcblNlYy1GZXRjaC1Nb2RlOiBjb3JzXHJcblNlYy1GZXRjaC1EZXN0OiBlbXB0eVxyXG5SZWZlcmVyOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXovXHJcbkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnJcclxuQWNjZXB0LUxhbmd1YWdlOiBlbixlbi1VUztxPTAuOSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tEQVRBXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24vanNvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
-            _switch_http_client_main()
-            http_client_post("http://localhost:8082", ["data", VAR_DATA], {"content-type":"custom/" + ("application/json"), "encoding":("UTF-8"), "method":("POST"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/store/buy/3\r\npoptls-proxy: " + VAR_HTTP_PROXY_ + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nContent-Length: " + VAR_DATA_LENGTH + "\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nContent-Type: application/json\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+            section_start("", 959415250)!
+            /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+            _call(function()
+            {
+            _on_fail(function(){
+            VAR_LAST_ERROR = _result()
+            VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+            VAR_WAS_ERROR = false
+            _break(1,true)
+            })
+            CYCLES.Current().RemoveLabel("function")
+            section_insert()
+               section_start("\u007b\u0022n\u0022:\u0022https://clicker-api.joincommunity.xyz/clicker/store/buy/3\u0022\u007d", 206346324)!
+               /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9zdG9yZS9idXkvM1xyXG5wb3B0bHMtcHJveHk6IFtbSFRUUF9QUk9YWV9dXVxyXG5wb3B0bHMtYWxsb3dyZWRpcmVjdDogdHJ1ZVxyXG5Ib3N0OiBjbGlja2VyLWFwaS5qb2luY29tbXVuaXR5Lnh5elxyXG5Db250ZW50LUxlbmd0aDogW1tEQVRBX0xFTkdUSF1dXHJcbkFjY2VwdDogYXBwbGljYXRpb24vanNvblxyXG5BdXRob3JpemF0aW9uOiBbW0FVVEhdXVxyXG5Vc2VyLUFnZW50OiBbW1VTRVJdXVxyXG5BdXRoOiAxXHJcbkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvblxyXG5PcmlnaW46IGh0dHBzOi8vY2xpY2tlci5qb2luY29tbXVuaXR5Lnh5elxyXG5YLVJlcXVlc3RlZC1XaXRoOiBvcmcudGVsZWdyYW0ubWVzc2VuZ2VyLndlYlxyXG5TZWMtRmV0Y2gtU2l0ZTogc2FtZS1zaXRlXHJcblNlYy1GZXRjaC1Nb2RlOiBjb3JzXHJcblNlYy1GZXRjaC1EZXN0OiBlbXB0eVxyXG5SZWZlcmVyOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXovXHJcbkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnJcclxuQWNjZXB0LUxhbmd1YWdlOiBlbixlbi1VUztxPTAuOSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tEQVRBXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24vanNvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+               _switch_http_client_main()
+               http_client_post("http://localhost:8082", ["data", VAR_DATA], {"content-type":"custom/" + ("application/json"), "encoding":("UTF-8"), "method":("POST"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/store/buy/3\r\npoptls-proxy: " + VAR_HTTP_PROXY_ + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nContent-Length: " + VAR_DATA_LENGTH + "\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nContent-Type: application/json\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+               section_end()!
+
+            },null)!
+            section_end()!
+
+            section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 91769729)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+            _set_if_expression("W1tXQVNfRVJST1JdXQ==");
+            _if(VAR_WAS_ERROR,function(){
+            section_insert()
+               section_start("", 805116761)!
+               /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXV0byIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+               _switch_http_client_main()
+               VAR_SAVED_CONTENT = http_client_encoded_content("auto")
+               section_end()!
+
+               section_start("", 381205587)!
+               /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiV2hpbGVFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1NBVkVEX0NPTlRFTlRdXSA9PSBcIkVtcHR5IHJlcGx5IGZyb20gc2VydmVyXCIiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+               _do(function(){
+               _set_action_info({ name: "While" });
+               VAR_CYCLE_INDEX = _iterator() - 1
+               BREAK_CONDITION = VAR_SAVED_CONTENT == "Empty reply from server";
+               if(!BREAK_CONDITION)_break();
+               section_insert()
+                  section_start("", 581586192)!
+                  /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+                  _call(function()
+                  {
+                  _on_fail(function(){
+                  VAR_LAST_ERROR = _result()
+                  VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+                  VAR_WAS_ERROR = false
+                  _break(1,true)
+                  })
+                  CYCLES.Current().RemoveLabel("function")
+                  section_insert()
+                     section_start("\u007b\u0022n\u0022:\u0022https://clicker-api.joincommunity.xyz/clicker/store/buy/3\u0022\u007d", 211695103)!
+                     /*Dat:eyJzIjoiaHR0cGNsaWVudHBvc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODA4MiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkhlYWRlcnMiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6InBvcHRscy11cmw6IGh0dHBzOi8vY2xpY2tlci1hcGkuam9pbmNvbW11bml0eS54eXovY2xpY2tlci9zdG9yZS9idXkvM1xyXG5wb3B0bHMtcHJveHk6IFtbSFRUUF9QUk9YWV9dXVxyXG5wb3B0bHMtYWxsb3dyZWRpcmVjdDogdHJ1ZVxyXG5Ib3N0OiBjbGlja2VyLWFwaS5qb2luY29tbXVuaXR5Lnh5elxyXG5Db250ZW50LUxlbmd0aDogW1tEQVRBX0xFTkdUSF1dXHJcbkFjY2VwdDogYXBwbGljYXRpb24vanNvblxyXG5BdXRob3JpemF0aW9uOiBbW0FVVEhdXVxyXG5Vc2VyLUFnZW50OiBbW1VTRVJdXVxyXG5BdXRoOiAxXHJcbkNvbnRlbnQtVHlwZTogYXBwbGljYXRpb24vanNvblxyXG5PcmlnaW46IGh0dHBzOi8vY2xpY2tlci5qb2luY29tbXVuaXR5Lnh5elxyXG5YLVJlcXVlc3RlZC1XaXRoOiBvcmcudGVsZWdyYW0ubWVzc2VuZ2VyLndlYlxyXG5TZWMtRmV0Y2gtU2l0ZTogc2FtZS1zaXRlXHJcblNlYy1GZXRjaC1Nb2RlOiBjb3JzXHJcblNlYy1GZXRjaC1EZXN0OiBlbXB0eVxyXG5SZWZlcmVyOiBodHRwczovL2NsaWNrZXIuam9pbmNvbW11bml0eS54eXovXHJcbkFjY2VwdC1FbmNvZGluZzogZ3ppcCwgZGVmbGF0ZSwgYnJcclxuQWNjZXB0LUxhbmd1YWdlOiBlbixlbi1VUztxPTAuOSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiUG9zdE5hbWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlBvc3RWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUG9zdERhdGFBcnJheSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IkNvbnRlbnRUeXBlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJ1cmxlbmNvZGUiLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJQb3N0RGF0YVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tEQVRBXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJDb250ZW50VHlwZVJhdyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXBwbGljYXRpb24vanNvbiIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkVuY29kaW5nIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJVVEYtOCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6Ik1ldGhvZCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUE9TVCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+                     _switch_http_client_main()
+                     http_client_post("http://localhost:8082", ["data", VAR_DATA], {"content-type":"custom/" + ("application/json"), "encoding":("UTF-8"), "method":("POST"),headers:("poptls-url: https://clicker-api.joincommunity.xyz/clicker/store/buy/3\r\npoptls-proxy: " + VAR_HTTP_PROXY_ + "\r\npoptls-allowredirect: true\r\nHost: clicker-api.joincommunity.xyz\r\nContent-Length: " + VAR_DATA_LENGTH + "\r\nAccept: application/json\r\nAuthorization: " + VAR_AUTH + "\r\nUser-Agent: " + VAR_USER + "\r\nAuth: 1\r\nContent-Type: application/json\r\nOrigin: https://clicker.joincommunity.xyz\r\nX-Requested-With: org.telegram.messenger.web\r\nSec-Fetch-Site: same-site\r\nSec-Fetch-Mode: cors\r\nSec-Fetch-Dest: empty\r\nReferer: https://clicker.joincommunity.xyz/\r\nAccept-Encoding: gzip, deflate, br\r\nAccept-Language: en,en-US;q=0.9")})!
+                     section_end()!
+
+                  },null)!
+                  section_end()!
+
+                  section_start("", 713648861)!
+                  /*Dat:eyJzIjoiaHR0cGNsaWVudGNvbnRlbnQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiU0FWRURfQ09OVEVOVCJ9LHsiaWQiOiJFbmNvZGluZyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiYXV0byIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+                  _switch_http_client_main()
+                  VAR_SAVED_CONTENT = http_client_encoded_content("auto")
+                  section_end()!
+
+               })!
+               section_end()!
+
+            })!
             section_end()!
 
             section_start("", 763641711)!
@@ -3058,8 +3259,8 @@
       section_end()!
 
       section_start("", 556674422)!
-      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
-      sleep(5000)!
+      /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwdG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEyMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXBmcm9tdG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjUwMDAiLCJjbGFzcyI6ImludCJ9LHsiaWQiOiJzbGVlcHJhbmRvbSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
+      sleep(rand(10000,12000))!
       section_end()!
 
       section_start("", 211358642)!
@@ -3154,6 +3355,25 @@
          /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIyIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gOm50aC1jaGlsZCg3KSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiBidXR0b24gPiBkaXYiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDcpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgxKSA+IGJ1dHRvbiA+IGRpdiIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC5idWJibGVzLWdyb3VwLWxhc3QgPiAuYnViYmxlID4gLmJ1YmJsZS1jb250ZW50LXdyYXBwZXIgPiAucmVwbHktbWFya3VwID4gLnJlcGx5LW1hcmt1cC1yb3cgPiAuaXMtd2ViLXZpZXcgPiAuYy1yaXBwbGUiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD4gUGxheT5BVD5bW0VMRU1FTlRfTEVOR1RIXV0iLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwiY29sdW1uLWNlbnRlclwiKS9kaXZbQGNsYXNzPVwiY2hhdHMtY29udGFpbmVyIHRhYnMtY29udGFpbmVyXCJdL2RpdltAY2xhc3M9XCJjaGF0IHRhYnMtdGFiIGFjdGl2ZVwiXS9kaXZbQGNsYXNzPVwiYnViYmxlcyBzY3JvbGxlZC1kb3duIGhhcy1ncm91cHMgaGFzLXN0aWNreS1kYXRlc1wiXS9kaXZbQGNsYXNzPVwic2Nyb2xsYWJsZSBzY3JvbGxhYmxlLXlcIl0vZGl2W0BjbGFzcz1cImJ1YmJsZXMtaW5uZXIgaGFzLXJpZ2h0c1wiXS9zZWN0aW9uW0BjbGFzcz1cImJ1YmJsZXMtZGF0ZS1ncm91cFwiXS9kaXZbQGNsYXNzPVwiYnViYmxlcy1ncm91cCBidWJibGVzLWdyb3VwLWxhc3RcIl0vZGl2W0BjbGFzcz1cImJ1YmJsZSB3aXRoLXJlcGx5LW1hcmt1cCBoaWRlLW5hbWUgaXMtaW4gY2FuLWhhdmUtdGFpbCBpcy1ncm91cC1maXJzdCBpcy1ncm91cC1sYXN0XCJdL2RpdltAY2xhc3M9XCJidWJibGUtY29udGVudC13cmFwcGVyXCJdL2RpdltAY2xhc3M9XCJyZXBseS1tYXJrdXBcIl0vZGl2W0BjbGFzcz1cInJlcGx5LW1hcmt1cC1yb3dcIl0vYnV0dG9uW0BjbGFzcz1cImlzLXdlYi12aWV3IGlzLWZpcnN0IGlzLWxhc3QgcmVwbHktbWFya3VwLWJ1dHRvbiBycFwiXS9kaXZbQGNsYXNzPVwiYy1yaXBwbGVcIl0iLCJhdCI6IjY3MCwgNTA1Iiwid2UiOnRydWUsImZhIjpmYWxzZX19*/
          /*Browser*/
          _SELECTOR = "\u003eMATCH\u003e Play\u003eAT\u003e" + VAR_ELEMENT_LENGTH;waiter_timeout_next(2000)
+         waiter_nofail_next();
+         wait_element_visible(_SELECTOR)!
+         _call(_random_point, {})!
+         _if(_result().length > 0, function(){
+         X = parseInt(_result().split(",")[0])
+         Y = parseInt(_result().split(",")[1])
+         mouse(X,Y)!
+         })!
+         section_end()!
+
+         section_start("", 964836592)!
+         /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+         sleep(1000)!
+         section_end()!
+
+         section_start("", 675681303)!
+         /*Dat:eyJzIjoiY2xpY2tlbGVtZW50IiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjEiLCJ1dGkiOiIyIiwidW0iOiIwIiwiZCI6W3siaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV0sInAiOnsiaXNfaW1hZ2UiOmZhbHNlLCJjc3MiOiIgPkNTUz4gOm50aC1jaGlsZCg3KSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDEpID4gOm50aC1jaGlsZCgyKSA+IDpudGgtY2hpbGQoMSkgPiBidXR0b24gPiBkaXYiLCJ2ZXJzaW9uIjoiMS4wIiwiY3NzMSI6IiA+Q1NTPiA6bnRoLWNoaWxkKDcpID4gOm50aC1jaGlsZCgxKSA+IDpudGgtY2hpbGQoMSkgPiA6bnRoLWNoaWxkKDIpID4gOm50aC1jaGlsZCgxKSA+IGJ1dHRvbiA+IGRpdiIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC5idWJibGVzLWdyb3VwLWxhc3QgPiAuYnViYmxlID4gLmJ1YmJsZS1jb250ZW50LXdyYXBwZXIgPiAucmVwbHktbWFya3VwID4gLnJlcGx5LW1hcmt1cC1yb3cgPiAuaXMtd2ViLXZpZXcgPiAuYy1yaXBwbGUiLCJjdXJyZW50IjoibWF0Y2giLCJtYXRjaCI6Ij5NQVRDSD4gUGxheT5BVD5bW0VMRU1FTlRfTEVOR1RIXV0iLCJ4cGF0aCI6IiA+WFBBVEg+IGlkKFwiY29sdW1uLWNlbnRlclwiKS9kaXZbQGNsYXNzPVwiY2hhdHMtY29udGFpbmVyIHRhYnMtY29udGFpbmVyXCJdL2RpdltAY2xhc3M9XCJjaGF0IHRhYnMtdGFiIGFjdGl2ZVwiXS9kaXZbQGNsYXNzPVwiYnViYmxlcyBzY3JvbGxlZC1kb3duIGhhcy1ncm91cHMgaGFzLXN0aWNreS1kYXRlc1wiXS9kaXZbQGNsYXNzPVwic2Nyb2xsYWJsZSBzY3JvbGxhYmxlLXlcIl0vZGl2W0BjbGFzcz1cImJ1YmJsZXMtaW5uZXIgaGFzLXJpZ2h0c1wiXS9zZWN0aW9uW0BjbGFzcz1cImJ1YmJsZXMtZGF0ZS1ncm91cFwiXS9kaXZbQGNsYXNzPVwiYnViYmxlcy1ncm91cCBidWJibGVzLWdyb3VwLWxhc3RcIl0vZGl2W0BjbGFzcz1cImJ1YmJsZSB3aXRoLXJlcGx5LW1hcmt1cCBoaWRlLW5hbWUgaXMtaW4gY2FuLWhhdmUtdGFpbCBpcy1ncm91cC1maXJzdCBpcy1ncm91cC1sYXN0XCJdL2RpdltAY2xhc3M9XCJidWJibGUtY29udGVudC13cmFwcGVyXCJdL2RpdltAY2xhc3M9XCJyZXBseS1tYXJrdXBcIl0vZGl2W0BjbGFzcz1cInJlcGx5LW1hcmt1cC1yb3dcIl0vYnV0dG9uW0BjbGFzcz1cImlzLXdlYi12aWV3IGlzLWZpcnN0IGlzLWxhc3QgcmVwbHktbWFya3VwLWJ1dHRvbiBycFwiXS9kaXZbQGNsYXNzPVwiYy1yaXBwbGVcIl0iLCJhdCI6IjY3MCwgNTA1Iiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
+         /*Browser*/
+         _SELECTOR = "\u003eMATCH\u003e Play\u003eAT\u003e" + VAR_ELEMENT_LENGTH;waiter_timeout_next(1000)
          waiter_nofail_next();
          wait_element_visible(_SELECTOR)!
          _call(_random_point, {})!
@@ -4816,7 +5036,7 @@
       _set_goto_label("parseStart")!
       section_end()!
 
-      section_start("", 480095705)!
+      section_start("", 122861614)!
       /*Dat:eyJzIjoiZ2V0dGhyZWFkbnVtYmVyIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlRIUkVBRF9JTkRFWCJ9XX0=*/
       VAR_THREAD_INDEX = thread_number()
       section_end()!
@@ -4826,7 +5046,7 @@
       _set_if_expression("MA==");
       _if(0,function(){
       section_insert()
-         section_start("", 173170361)!
+         section_start("", 1829805)!
          /*Dat:eyJzIjoic2V0dmFyaWFibGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2V0VmFyaWFibGVOYW1lIiwidHlwZSI6InZhciIsImRhdGEiOiJUSFJFQURfSU5ERVgifSx7ImlkIjoiU2V0VmFyaWFibGVWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiNzMiLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
          VAR_THREAD_INDEX = 73
          section_end()!
@@ -6027,7 +6247,7 @@
      <ConnectionPassword></ConnectionPassword>
      <ScriptName>ScriptName</ScriptName>
      <ProtectionStrength>4</ProtectionStrength>
-     <UnusedModules>ClickCaptcha;InMail;PhoneVerification</UnusedModules>
+     <UnusedModules>PhoneVerification;ClickCaptcha;InMail</UnusedModules>
      <ScriptIcon>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</ScriptIcon>
      <IsCustomIcon>false</IsCustomIcon>
      <HideBrowsers>false</HideBrowsers>
@@ -6046,7 +6266,7 @@ EnableComponents=true
 AutostartDebug=false
 SaveBrowserLog=false
 ProfilesCaching=true
-ToolboxHeight=629
+ToolboxHeight=417
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
@@ -6072,7 +6292,7 @@ Webgl=&quot;enable&quot;
 WebglNoise=&quot;&quot;
 WebglRenderer=&quot;&quot;
 WebglVendor=&quot;&quot;
-Detector=true
+Detector=false
 </SettingsWorker>
      <ChromeCommandLine>--disk-cache-size=1
 --disable-gpu-program-cache
